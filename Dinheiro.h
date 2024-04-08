@@ -5,31 +5,31 @@
 
 class Dinheiro {
 private:
-    double valor;
+    int valor; // Modificado para int
 
 public:
     // Construtor
-    Dinheiro(double valor = 0.0) {
+    Dinheiro(int valor = 0) {
         setValor(valor);
     }
 
     // Getter para o atributo valor
-    double getValor() const {
+    int getValor() const {
         return valor;
     }
 
     // Setter para o atributo valor, verificando se está dentro do intervalo permitido
-    void setValor(double valor) {
+    void setValor(int valor) {
         if (valor >= 0 && valor <= 1000000) {
             this->valor = valor;
         } else {
-            std::cerr << "Erro: Valor deve estar entre 0 e 1000000." << std::endl;
+            cout << "Erro: Valor deve estar entre 0 e 1000000." << endl;
         }
     }
 
     // Função para imprimir o valor do dinheiro
     void imprimir() const {
-        std::cout << "Valor do dinheiro: R$ " << valor << std::endl;
+        std::cout << "Valor do dinheiro: " << valor << std::endl;
     }
 };
 
