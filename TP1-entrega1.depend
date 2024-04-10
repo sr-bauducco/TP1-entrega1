@@ -1,10 +1,17 @@
 # depslib dependency file v1.0
-1712777823 source:c:\users\israe\documents\cpp\tp1-entrega1\main.cpp
+1712780213 source:c:\users\israe\documents\cpp\tp1-entrega1\main.cpp
 	<iostream>
 	"Setor.h"
+	"Dinheiro.h"
+	"Estado.h"
 
-1712598709 c:\users\israe\documents\cpp\tp1-entrega1\setor.h
+1712778686 c:\users\israe\documents\cpp\tp1-entrega1\setor.h
 	<iostream>
 	<string>
 	<vector>
+
+1712778673 c:\users\israe\documents\cpp\tp1-entrega1\dinheiro.h
+	<iostream>
+
+1712780262 c:\users\israe\documents\cpp\tp1-entrega1\estado.h
 

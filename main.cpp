@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Setor.h"
 #include "Dinheiro.h"
+#include "Estado.h"
 using namespace std;
 
 int main() {
@@ -23,6 +24,14 @@ int main() {
     Dinheiro dinheiro;
     dinheiro.setValor(valorDinheiro);
     dinheiro.imprimir();
+
+
+    Estado estado;
+    cout << "digite o estado:";
+    string estadoAtual;
+    cin >> estadoAtual;
+    estado.setEstado(estadoAtual);
+    cout << estado.getEstado();
 
 
     return 0;
