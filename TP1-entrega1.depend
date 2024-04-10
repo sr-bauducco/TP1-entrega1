@@ -1,4 +1,10 @@
 # depslib dependency file v1.0
-1712241192 source:c:\users\israe\documents\cpp\tp1-entrega1\main.cpp
+1712777823 source:c:\users\israe\documents\cpp\tp1-entrega1\main.cpp
 	<iostream>
+	"Setor.h"
+
+1712598709 c:\users\israe\documents\cpp\tp1-entrega1\setor.h
+	<iostream>
+	<string>
+	<vector>
 

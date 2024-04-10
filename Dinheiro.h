@@ -9,17 +9,17 @@ private:
 
 public:
     // Construtor
-    Dinheiro(int valor = 0) {
+    Dinheiro::Dinheiro(int valor   ) {
         setValor(valor);
     }
 
     // Getter para o atributo valor
-    int getValor() const {
+    int Dinheiro::getValor() const {
         return valor;
     }
 
     // Setter para o atributo valor, verificando se está dentro do intervalo permitido
-    void setValor(int valor) {
+    void Dinheiro::setValor(int valor) {
         if (valor >= 0 && valor <= 1000000) {
             this->valor = valor;
         } else {
@@ -28,7 +28,7 @@ public:
     }
 
     // Função para imprimir o valor do dinheiro
-    void imprimir() const {
+    void Dinheiro::imprimir() const {
         std::cout << "Valor do dinheiro: " << valor << std::endl;
     }
 };

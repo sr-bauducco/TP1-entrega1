@@ -1,24 +1,16 @@
 #include <iostream>
-#include "Setor.h" // Incluindo o arquivo de cabeçalho da classe Setor
+#include "Setor.h"
+using namespace std;
 
 int main() {
-    // Criando um objeto da classe Setor
+    string valor;
     Setor setor;
-
-    // Definindo o nome do setor usando o método setNome()
-    std::string nomeSetor = "Energia";
+    cin >> valor;
+    std::string nomeSetor = valor;
     if (setor.setNome(nomeSetor)) {
-        std::cout << "Nome do setor definido com sucesso: " << setor.getNome() << std::endl;
+        cout << setor.getNome();
     } else {
-        std::cout << "Erro ao definir o nome do setor." << std::endl;
-    }
-
-    // Tentando definir um nome inválido para o setor
-    nomeSetor = "Saúde";
-    if (setor.setNome(nomeSetor)) {
-        std::cout << "Nome do setor definido com sucesso: " << setor.getNome() << std::endl;
-    } else {
-        std::cout << "Erro ao definir o nome do setor." << std::endl;
+         cout << "Invalido \n";
     }
 
     return 0;
