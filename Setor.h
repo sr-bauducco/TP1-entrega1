@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+//working
 class Setor {
 private:
     std::string nome;
@@ -22,12 +22,10 @@ private:
     };
 
 public:
-    // Construtor
     Setor(std::string nome = "") {
         setNome(nome);
     }
 
-    // Setter para o atributo nome, verificando se é um valor válido
     bool setNome(std::string nome) {
         if (nomeValido(nome)) {
             this->nome = nome;
