@@ -37,12 +37,10 @@ public:
         }
     }
 
-    // Getter para o atributo nome
     std::string getNome() const {
         return nome;
     }
 
-    // Função para verificar se o nome do setor é válido
     bool nomeValido(std::string nome) const {
         for (const auto& setor : setoresValidos) {
             if (nome == setor) {

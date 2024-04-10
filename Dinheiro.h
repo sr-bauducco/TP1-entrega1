@@ -1,35 +1,33 @@
 #ifndef DINHEIRO_H
 #define DINHEIRO_H
-
 #include <iostream>
+
+using namespace std;
 
 class Dinheiro {
 private:
-    int valor; // Modificado para int
-
+    int valor = 0;
 public:
-    // Construtor
-    Dinheiro::Dinheiro(int valor   ) {
+    Dinheiro() {
         setValor(valor);
     }
 
-    // Getter para o atributo valor
-    int Dinheiro::getValor() const {
+   int getValor() const {
         return valor;
     }
 
-    // Setter para o atributo valor, verificando se está dentro do intervalo permitido
-    void Dinheiro::setValor(int valor) {
+
+   void setValor(int valor) {
         if (valor >= 0 && valor <= 1000000) {
             this->valor = valor;
         } else {
-            cout << "Erro: Valor deve estar entre 0 e 1000000." << endl;
+            cout << "Erro: Valor deve estar entre 0 e 1000000.";
         }
     }
 
-    // Função para imprimir o valor do dinheiro
-    void Dinheiro::imprimir() const {
-        std::cout << "Valor do dinheiro: " << valor << std::endl;
+
+    void imprimir() const {
+        std::cout << "Valor do dinheiro: " << valor ;
     }
 };
 
