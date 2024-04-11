@@ -27,7 +27,7 @@ public:
     }
 
     bool setNome(std::string nome) {
-        if (nomeValido(nome)) {
+        if (validarNome(nome)) {
             this->nome = nome;
             return true;
         } else {
@@ -39,7 +39,7 @@ public:
         return nome;
     }
 
-    bool nomeValido(std::string nome) const {
+    bool validarNome(std::string nome) const {
         for (const auto& setor : setoresValidos) {
             if (nome == setor) {
                 return true;

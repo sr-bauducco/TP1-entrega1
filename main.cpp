@@ -2,10 +2,11 @@
 #include "Setor.h"
 #include "Dinheiro.h"
 #include "Estado.h"
+#include "CodigoTitulo.h"
 using namespace std;
 
 int main() {
-
+/*
     string valor;
     Setor setor;
     cout <<"Digite o Setor que deseja:";
@@ -32,6 +33,15 @@ int main() {
     cin >> estadoAtual;
     estado.setEstado(estadoAtual);
     cout << estado.getEstado();
+*/
+    CodigoTitulo codigo_titulo;
+    string opr,codigo;
+    cout << "Digite a operacao: ";
+    cin >> opr;
+    cout << "Digite o codigo: ";
+    cin >> codigo;
+    codigo_titulo.setCodigoTitulo(opr,codigo);
+    cout << codigo_titulo.getCodigoTitulo();
 
 
     return 0;
