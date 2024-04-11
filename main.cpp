@@ -36,12 +36,12 @@ int main() {
 */
     CodigoTitulo codigo_titulo;
     string opr,codigo;
-    cout << "Digite a operacao: ";
+   /* cout << "Digite a operacao: ";
     cin >> opr;
     cout << "Digite o codigo: ";
-    cin >> codigo;
-    codigo_titulo.setCodigoTitulo(opr,codigo);
-    cout << codigo_titulo.getCodigoTitulo();
+    cin >> codigo;*/
+    codigo_titulo.setCodigoTitulo("CDB","123456789");
+    cout << "" + codigo_titulo.getCodigoTitulo();
 
 
     return 0;

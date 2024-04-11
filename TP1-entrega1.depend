@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1712862880 source:c:\users\israe\documents\cpp\tp1-entrega1\main.cpp
+1712863067 source:c:\users\israe\documents\cpp\tp1-entrega1\main.cpp
 	<iostream>
 	"Setor.h"
 	"Dinheiro.h"
@@ -16,5 +16,5 @@
 
 1712780272 c:\users\israe\documents\cpp\tp1-entrega1\estado.h
 
-1712862855 c:\users\israe\documents\cpp\tp1-entrega1\codigotitulo.h
+1712863278 c:\users\israe\documents\cpp\tp1-entrega1\codigotitulo.h
 

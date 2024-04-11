@@ -6,6 +6,7 @@ class CodigoTitulo{
 private:
     string opr;
     string codigo;
+    string codigoTodo;
     vector < std::string> oprValidos = {
         "CDB",
         "CRA",
@@ -31,7 +32,7 @@ public:
     }
     std::string getCodigoTitulo() const{
 
-        return opr+codigo;
+        return "" + opr + "" + codigo ;
     }
 };
 
