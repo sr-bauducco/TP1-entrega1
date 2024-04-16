@@ -20,11 +20,11 @@ public:
             this->valor = valor;
         }
         else {
-            cout << "O valor deve ser numérico e deve estar entre 0 e 100." << endl;
+            cout << "O valor deve ser numÃ©rico e deve estar entre 0 e 100." << endl;
         }
     }
 };
 
-// Dá pra melhorar adaptando o código caso receba valores alpha.
+// DÃ¡ pra melhorar adaptando o cÃ³digo caso receba valores alpha.
 
 #endif // PERCENTUAL_H_INCLUDED
