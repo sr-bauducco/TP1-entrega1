@@ -9,7 +9,7 @@ class Nome {
 private:
     string valor;
 
-    bool validaNome(const string& valor) {
+    bool validarNome(const string& valor) {
         int termos = 0;
         istringstream iss(valor);
         string palavra;
@@ -32,7 +32,7 @@ public:
     Nome() : valor("") {}
 
     void setNome(const string& valor) {
-        if (validaNome(valor)) {
+        if (validarNome(valor)) {
             this->valor = valor;
         }
     }
